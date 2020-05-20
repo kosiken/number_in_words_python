@@ -1,7 +1,7 @@
 '''
     A script to convert numbers to their actual names
 '''
-from time import sleep
+
 mversion = '1.2.0'
 
 #  list of numbers in string form to resolve number names less than 20
@@ -126,6 +126,3 @@ def name_long_number(num):
     # hopefully this is not too dirty but basically trying to remove `, ` from the 
     # end of the answer
     return ans[:(len(ans) - 2)].strip()
-
-
-print(name_long_number('0110'))
