@@ -29,7 +29,7 @@ num_array = [
     'nineteen'
 ]
 
-#  list of numbers in string form to resolve number names less than 100 but higher than 20 
+#  list of numbers in string form to resolve number names less than 100 but higher than 19 
 # first two indexes are left blank because we want tens[2] to be twenty
 # to avoid unnecssary complexity
 tens = [
